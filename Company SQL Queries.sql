@@ -26,7 +26,7 @@ SHOW GLOBAL VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = 1;
 
 LOAD DATA LOCAL INFILE 
-'\Users\PALLAVI\Downloads\Company Sales Data.csv.csv'
+'\Users\PALLAVI\Downloads\Company Sales Data.csv'
 INTO TABLE sales
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
